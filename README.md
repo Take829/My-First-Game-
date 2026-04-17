@@ -50,4 +50,6 @@ Simple game like mole-hitting game
 * `clock.tick()` – Limit FPS
 
 ## Comments
-* I'm japanese student and I'm major in programming. I want to make AI and some games which add AI. This is first step. I want to make more game day by day.
+* I am a Japanese student majoring in programming.
+* I am interested in AI and game development, especially combining both fields.
+* This project is my first step, and I will continue building more projects.
