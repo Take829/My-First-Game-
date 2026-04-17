@@ -3,8 +3,8 @@ Simple game like mole-hitting game
 
 ## How-to-run
 * $ indicates prompt
-* pip install pygame
-* python game1.py
+* $ pip install pygame
+* $ python game1.py
 
 ## Features
 * Random target spawning
