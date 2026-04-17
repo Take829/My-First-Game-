@@ -23,7 +23,31 @@ Simple game like mole-hitting game
 * Pygame
   
 ## Future goals
-* I'll consider about it through playing and watching some games like this.
+* I'll consider about it through playing and watching some games like this
+
+## new knowledges for me
+* game is made by "loop & state managements"
+* I can prevent overlapping to use collision detection to prevent overlapping objects
+* I can avoid runtime errors during removal to apply safe list iteration (`targets[:]`)
+* I can implement time-based mechanics using `pygame.time.get_ticks()` and loop sentences to realize time-limit and manage object lifetime
+
+## Methods Used
+* `pygame.init()` – Initialize the game
+* `pygame.display.set_mode()` – Create game window
+* `pygame.time.Clock()` – Control frame rate
+* `pygame.image.load()` – Load images
+* `pygame.transform.scale()` – Resize images
+* `pygame.font.SysFont()` – Create font object
+* `pygame.event.get()` – Handle events
+* `pygame.Rect()` – Create rectangles for collision detection
+* `colliderect()` – Check collision between objects
+* `collidepoint()` – Detect mouse click on object
+* `screen.blit()` – Draw images on screen
+* `pygame.draw.circle()` – Draw visual effects
+* `font.render()` – Render text
+* `pygame.time.get_ticks()` – Get elapsed time
+* `pygame.display.flip()` – Update display
+* `clock.tick()` – Limit FPS
 
 ## comments
 * I'm japanese student and I'm major in programming. I want to make AI and some games which add AI. This is first step. I want to make more game day by day.
